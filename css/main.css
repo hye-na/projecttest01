@@ -1,0 +1,39 @@
+
+body {
+    margin: 0 auto;
+}
+
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;
+}
+
+p {
+   color: white;
+   font-weight: 600;
+  }
+
+#plus, #minus {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 20%;
+   }
+
+input {
+    width: 50px;
+    height: 50px;
+    border: 2px solid light grey;
+    border-radius: 20%;
+   }
+
+#num {
+    margin: auto;
+    font-weight: 600;   
+    font-size: 2em;
+   }
+   
+ 
