@@ -9,7 +9,7 @@ var result;
 var blank;
 var num = parseInt(counter); //num that user inputs
 var sum = 1;
-var deduct = 0;
+var deduct = 1;
 
 /*----- cached element references -----*/
 
@@ -29,9 +29,9 @@ plusBtn.addEventListener("click", function (e) {
 
 
 minusBtn.addEventListener("click", function (e) {
-    deduct -= parseInt(counter.value);
+    deduct - parseInt(counter.value);
     result.textContent = deduct;
-});
+}); //whole integer becomes a negative number
 
 
 /*----- functions -----*/
@@ -39,21 +39,5 @@ minusBtn.addEventListener("click", function (e) {
 function init() {
     num = 0;
 };
-
-
-// sum += num;
-// return sum;
-
-// function addTo() {
-//     if (num) {
-//         return a + b;
-
-//     }
-// };
-
-
-
-
-
 
 
