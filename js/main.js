@@ -31,7 +31,7 @@ plusBtn.addEventListener("click", function (e) {
 minusBtn.addEventListener("click", function (e) {
     deduct - parseInt(counter.value);
     result.textContent = deduct;
-}); //whole integer becomes a negative number
+});
 
 
 /*----- functions -----*/
