@@ -8,8 +8,8 @@ var minus;
 var result;
 var blank;
 var num = parseInt(counter); //num that user inputs
-var sum = 1;
-var deduct = 1;
+var sum = 0;
+var deduct = 0;
 
 /*----- cached element references -----*/
 
@@ -29,11 +29,13 @@ plusBtn.addEventListener("click", function (e) {
 
 
 minusBtn.addEventListener("click", function (e) {
-    deduct - parseInt(counter.value);
+    deduct -= parseInt(counter.value);
     result.textContent = deduct;
 });
 
+// plusBtn.style
 
+// minusBtn.style.
 /*----- functions -----*/
 
 function init() {

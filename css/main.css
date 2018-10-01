@@ -36,6 +36,7 @@ input {
     height: 50px;
     border: 2px solid light grey;
     border-radius: 20%;
+    text-align: center;
    }
 
 #num {
@@ -45,9 +46,3 @@ input {
    
    }
    
- 
-   /* :hover {
-    color: lightgrey;
-    background-color: lightgrey;
-    border-color: lightgrey;
-   } */
